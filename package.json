@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hugo --gc --minify",
-    "dev": "hugo server -D",
-    "start": "serve -s public -l ${PORT:-3000}"
-  },
-  "dependencies": {
-    "serve": "^14.0.1"
+    "dev": "hugo server -D"
   },
   "devDependencies": {
     "hugo-bin": "^0.87.0"
