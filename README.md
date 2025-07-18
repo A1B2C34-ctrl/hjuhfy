@@ -1,6 +1,6 @@
 # Shaw Webmail Application
 
-This project hosts the Shaw Webmail application, providing users with a web interface to access their Shaw email accounts.
+This project hosts the
 
 ## Project Structure
 
@@ -15,8 +15,9 @@ shaw-webmail
 ├── public
 │   └── favicon.ico          # Favicon for the web application
 ├── index.html               # Main HTML file
-├── netlify.toml            # Netlify configuration file
+├── render.yaml           # Render configuration file
 └── README.md                # Project documentation
+|___Package.json
 ```
 
 ## Setup Instructions
