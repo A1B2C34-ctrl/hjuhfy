@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "hugo --gc --minify",
-    "start": "serve -s public -l ${PORT:-3000}"
+    "dev": "hugo server -D",           // Start Hugo's local server with drafts enabled
+    "start": "serve -s public -l ${PORT:-3000}" // Serve the built site from public/
   },
   "dependencies": {
     "serve": "^14.0.1"
