@@ -1,0 +1,12 @@
+shaw-webmail
+├── assets
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   └── main.js
+│   └── images
+├── public
+│   └── favicon.ico
+├── index.html
+├── netlify.toml
+└── README.md
