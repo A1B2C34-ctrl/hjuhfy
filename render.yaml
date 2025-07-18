@@ -1,0 +1,16 @@
+services:
+  - name: shaw-webmail-static
+    type: static
+    plan: free
+
+    # 1. How to build your site
+    buildCommand: npm run build
+
+    # 2. Where the built files live
+    staticPublishPath: public
+
+    # 3. Single-page-app fallback (rewrite all routes to index.html)
+    routes:
+      - type: rewrite
+        src: /*
+        dest: /index.html
