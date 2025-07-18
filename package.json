@@ -1,0 +1,15 @@
+{
+  "name": "shaw-webmail",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hugo --gc --minify",
+    "start": "serve -s public -l ${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "devDependencies": {
+    "hugo-bin": "^0.87.0"
+  }
+}
